@@ -1,10 +1,44 @@
 <img width="1902" height="1078" alt="helpdesk3000" src="https://github.com/user-attachments/assets/d820f6bb-9df0-47a1-9b94-30a84863cc39" />
+
+
+
+
+
+Employee
+    |
+    v
+React Frontend
+    |
+    v
+Express API
+    |
+    +--> SQLite Database
+    |
+    +--> Email Notifications
+    |
+    +--> Escalation Engine
+
+
 # HelpDesk Pro 🖥️
 
 A full-stack IT helpdesk ticketing system built with React, Node.js, Express and SQLite.
 
+
+## Business Value
+
+This project demonstrates:
+
+- IT service management workflows
+- Ticket lifecycle management
+- Incident escalation processes
+- Authentication and authorization
+- Email automation
+- Audit logging
+- Full-stack application development
+
+The system simulates many workflows commonly found in enterprise IT help desk platforms.
 ## Features
-- 📝 Employees submit support tickets
+- 📝 Simulates a real-world IT help desk environment where employees submit incidents and service requests, which are automatically routed, tracked, escalated, and audited.
 - 🤖 Auto-assigns tickets to agents based on category and priority
 - 📧 Automated email notifications (new ticket, status update, resolved)
 - ⏰ Escalation cron job — overdue tickets auto-escalate every hour
